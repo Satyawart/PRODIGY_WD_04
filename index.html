@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>SATYAWART Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                SATYAWART SINGH <span>RAJAWAT</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#services">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Service</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="123456.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm SATYAWART <span>Frontend Developer</span></h1>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">A passionate Frontend Developer focused on crafting seamless, responsive, and interactive web experiences. I bring designs to life with clean code, aiming to create intuitive and dynamic user interfaces that leave an impact.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Satyawart" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/satyawart-singh-rajawat-10536332a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BgsBdQCphQJGq61SNtpKKgA%3D%3D" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/home" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button onclick="window.location.href='#contact'">Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2 data-aos="fade-up" data-aos-duration="1500">About Me</h2>
+        <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">I am a passionate Frontend Developer dedicated to creating beautiful, responsive, and user-friendly web applications. With a solid foundation in HTML, CSS, and JavaScript, I bring designs to life by building interactive interfaces that engage users. My approach focuses on writing clean, efficient code and adhering to best practices to ensure optimal performance across all devices.
+            I thrive on challenges and continuously seek to expand my skill set by exploring new frameworks and technologies. Whether it’s enhancing the user experience or implementing innovative features, I am committed to delivering high-quality work that exceeds client expectations.
+            
+            Beyond coding, I enjoy collaborating with designers and developers to create cohesive and visually appealing products. My goal is to transform ideas into reality, crafting digital experiences that leave a lasting impression.
+            
+            Let’s connect and create something extraordinary together!</p>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2 data-aos="fade-up" data-aos-duration="1500">My Skills</h2>
+        <ul data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript & React</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Problem Solving</li>
+            <li>Collaboration</li>
+            <li>Time Management</li>
+            <li>Adaptability</li>
+        </ul>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <h2 data-aos="fade-up" data-aos-duration="1500">Services</h2>
+        <div class="service-cards">
+            <div class="service-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                <h3>Web Development</h3>
+                <p>I create responsive and functional websites.</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                <h3>UI/UX Design</h3>
+                <p>Design intuitive interfaces that enhance user experience.</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
+                <h3>Frontend Development</h3>
+                <p>Building interactive and dynamic web applications using modern technologies and frameworks.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 data-aos="fade-up" data-aos-duration="1500">Contact Me</h2>
+        <form data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+</body>
+</html>
